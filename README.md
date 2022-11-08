@@ -12,7 +12,11 @@ https://www.npmjs.com/package/nodejs-socket-client
 ## Description
 
 [https://github.com/Rasukarusan/nodejs-socket-server](https://github.com/Rasukarusan/nodejs-socket-server) のクライアント。  
-ソケットサーバーからメッセージを受信すると、`location.reload()`をするだけのもの。
+ソケットサーバーからメッセージを受信すると、`location.reload()`します。
+
+## Why
+
+yarnやnpmが導入できないプロジェクトでもホットリロードしたかったため。
 
 ## Usage
 
@@ -27,7 +31,7 @@ index.html
 <head>
   <meta charset="UTF-8">
   <title>socket</title>
-  <script src="https://cdn.jsdelivr.net/npm/nodejs-socket-client@1.0.0/index.js" integrity="sha256-W3axhsOWw8Ypmtb2GVoazW4AZaAZKbg98mLBjF/roBM=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/nodejs-socket-client@1.0.1/index.js" integrity="sha256-h17+PbIX5sv+N7DmVZSHpZy/s0BoUWnUCi5jeo3OUTo=" crossorigin="anonymous"></script>
 </head>
 <body>
   <div>hoge</div>
